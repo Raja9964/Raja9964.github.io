@@ -310,12 +310,12 @@
     items.forEach(function (el) { io.observe(el); });
   }
 
-  // each demo deploys from its own repo; until it's up, don't send anyone to a 404
+  // each demo deploys from its own repo; until it's live, don't send anyone to a 404
   function pending(a) {
     a.removeAttribute("href");
     a.setAttribute("aria-disabled", "true");
     a.classList.add("is-pending");
-    a.firstChild.textContent = "Demo deploying";
+    a.firstChild.textContent = "Demo coming soon";
   }
   document.querySelectorAll("a[data-demo]").forEach(function (a) {
     fetch(a.href, { method: "HEAD", cache: "no-store" }).then(function (r) {
