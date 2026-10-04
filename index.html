@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raja Mohamad | Data Engineer</title>
+  <meta name="description" content="Raja Mohamad is a Data Engineer in Bengaluru, India, building ETL pipelines and cloud data platforms with Python, SQL, AWS and Google Cloud.">
+  <meta name="author" content="Raja Mohamad">
+  <link rel="canonical" href="https://raja9964.github.io/">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f7f9fc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Raja Mohamad">
+  <meta property="og:title" content="Raja Mohamad | Data Engineer">
+  <meta property="og:description" content="Data Engineer in Bengaluru building ETL pipelines and cloud data platforms with Python, SQL, AWS and Google Cloud.">
+  <meta property="og:url" content="https://raja9964.github.io/">
+  <meta property="og:image" content="https://raja9964.github.io/assets/img/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Raja Mohamad, Data Engineer">
+  <meta property="og:locale" content="en_IN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Raja Mohamad | Data Engineer">
+  <meta name="twitter:description" content="Data Engineer in Bengaluru building ETL pipelines and cloud data platforms with Python, SQL, AWS and Google Cloud.">
+  <meta name="twitter:image" content="https://raja9964.github.io/assets/img/og-image.png">
+  <meta name="twitter:image:alt" content="Raja Mohamad, Data Engineer">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <script>
+    // set the theme before first paint to avoid a flash
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (t !== "light" && t !== "dark") {
+        t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-theme", t);
+      document.documentElement.classList.add("js");
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap">
+  <link rel="preload" as="image" href="assets/img/avatar-320.webp" type="image/webp">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Back to top">
+        <span class="brand-mark" aria-hidden="true">RM</span>
+        <span class="brand-name" data-bind="name"></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#credentials">Credentials</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+          <svg class="icon-menu" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="icon-close" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-location mono"><span class="pulse" aria-hidden="true"></span><span id="hero-location"></span></p>
+          <h1 id="hero-title" data-bind="name"></h1>
+          <p class="hero-role" id="hero-role"></p>
+          <p class="hero-lede" data-bind="tagline"></p>
+          <div class="hero-actions" id="hero-actions"></div>
+          <ul class="hero-stats" id="hero-stats"></ul>
+        </div>
+        <div class="hero-visual" id="hero-visual"></div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker mono">01 / About</p>
+          <h2 id="about-title">About me</h2>
+        </div>
+        <div class="about-grid" id="about-body"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker mono">02 / Skills</p>
+          <h2 id="skills-title">Tools I work with</h2>
+        </div>
+        <div class="skills-grid" id="skills-body"></div>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker mono">03 / Experience</p>
+          <h2 id="experience-title">Where I've worked</h2>
+        </div>
+        <ol class="timeline" id="experience-body"></ol>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker mono">04 / Projects</p>
+          <h2 id="projects-title">Selected projects</h2>
+        </div>
+        <div class="projects-grid" id="projects-body"></div>
+      </div>
+    </section>
+
+    <section class="section" id="credentials" aria-labelledby="credentials-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker mono">05 / Credentials</p>
+          <h2 id="credentials-title">Certifications &amp; publication</h2>
+        </div>
+        <div class="split" id="credentials-body"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker mono">06 / Background</p>
+          <h2 id="education-title">Achievements &amp; education</h2>
+        </div>
+        <div class="split" id="education-body"></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-card reveal" id="contact-body"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Raja Mohamad</p>
+      <a href="#top" class="footer-top">Back to top <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This site needs JavaScript to show its content. You can also find Raja on
+      <a href="https://www.linkedin.com/in/raja-mohamad-711161262">LinkedIn</a> and
+      <a href="https://github.com/Raja9964">GitHub</a>.</p>
+  </noscript>
+</body>
+</html>
