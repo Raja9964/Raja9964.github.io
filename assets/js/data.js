@@ -135,11 +135,11 @@ window.SITE_DATA = {
       url: "https://github.com/Raja9964/Voyagr"
     },
     {
-      name: "GiveTrack",
+      name: "Helping Hands",
       description:
         "Donation platform with trackable donation codes, a public status timeline and an admin dashboard.",
       tags: ["Node.js", "Express", "MongoDB", "Bootstrap"],
-      url: "https://github.com/Raja9964/GiveTrack"
+      url: "https://github.com/Raja9964/Helping-Hands"
     },
     {
       name: "Pagewright",
