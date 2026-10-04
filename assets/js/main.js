@@ -117,7 +117,8 @@
   function actions(p) {
     var label = p.demoLabel || "Live demo";
     return '<div class="card-actions">' +
-      (p.demo ? ext(p.demo, "<span>" + esc(label) + "</span>" + I.external, "btn btn-small btn-primary", label + ": " + p.name) : "") +
+      (p.demo ? '<a class="btn btn-small btn-primary" href="' + esc(p.demo) + '" target="_blank" rel="noopener noreferrer" data-demo aria-label="' + esc(label + ": " + p.name) + '">' +
+        "<span>" + esc(label) + "</span>" + I.external + "</a>" : "") +
       ext(p.url, I.github + "<span>View code</span>", "btn btn-small btn-outline", "View " + p.name + " code on GitHub") +
       "</div>";
   }
@@ -308,4 +309,17 @@
     }, { rootMargin: "0px 0px -6% 0px", threshold: 0.08 });
     items.forEach(function (el) { io.observe(el); });
   }
+
+  // each demo deploys from its own repo; until it's up, don't send anyone to a 404
+  function pending(a) {
+    a.removeAttribute("href");
+    a.setAttribute("aria-disabled", "true");
+    a.classList.add("is-pending");
+    a.firstChild.textContent = "Demo deploying";
+  }
+  document.querySelectorAll("a[data-demo]").forEach(function (a) {
+    fetch(a.href, { method: "HEAD", cache: "no-store" }).then(function (r) {
+      if (!r.ok) pending(a);
+    }, function () { pending(a); });
+  });
 })();
