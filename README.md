@@ -1,6 +1,6 @@
 # raja9964.github.io
 
-Personal portfolio of Raja Mohamad, Data Engineer in Bengaluru, India.
+Personal portfolio of Raja Mohamad, Data Engineering Intern in Bengaluru, India.
 Live at https://raja9964.github.io
 
 Plain HTML, CSS and JavaScript. No build step and no dependencies.
@@ -15,6 +15,7 @@ assets/css/styles.css   all styles, light and dark themes
 assets/js/data.js       all personal content (edit this)
 assets/js/main.js       renders data.js into the page
 assets/img/             photo, og-image.png, apple-touch-icon.png
+assets/img/projects/    project screenshots (WebP, 1200px wide)
 ```
 
 ## Editing content
@@ -23,12 +24,9 @@ Everything personal (title, experience, projects, certifications,
 publication, education, links) lives in `assets/js/data.js`. Change the values,
 save and refresh. There's no need to touch the HTML.
 
-- **Résumé button:** put the PDF at `assets/Raja_Mohamad_Resume.pdf` and set
-  `resumeAvailable: true`.
-- **Email button:** set `links.email` to an address. Leave it empty to hide it.
-- **Paper link:** set `publication.url` to show a "Read the paper" link.
 - **Projects:** add or remove objects in `projects`. `featured: true` makes the
-  large card.
+  wide card; `demo` adds a live demo button and `image` points at a screenshot.
+- **Publications and certifications:** edit `publications` and `certifications`.
 
 The `<title>`, description and Open Graph tags in `index.html` also mention the
 name and title. Update them too if the job title changes. LinkedIn caches link
@@ -38,10 +36,10 @@ to refresh it after a change.
 ## Running locally
 
 ```
-python -m http.server 5107
+python -m http.server 5108
 ```
 
-Then open http://localhost:5107.
+Then open http://localhost:5108.
 
 ## Deploying with GitHub Pages
 
