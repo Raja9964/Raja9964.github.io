@@ -765,6 +765,8 @@ svg.fill { fill: currentColor; stroke: none; }
 @media (min-width: 900px) { .split { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; } }
 
 .cert-list { display: grid; gap: 12px; }
+.split > .reveal:only-child { grid-column: 1 / -1; }
+.split > .reveal:only-child .cert-list { grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
 .cert {
   display: flex;
   align-items: center;

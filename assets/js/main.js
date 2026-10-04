@@ -121,7 +121,7 @@
       '<p class="project-desc">' + esc(p.description) + '</p>' +
       flow +
       '<div class="project-foot">' + tags(p.tags) +
-        extLink(p.url, "View on GitHub", "text-link", "github") +
+        (p.url ? extLink(p.url, "View on GitHub", "text-link", "github") : "") +
       '</div>' +
     '</article>';
   }).join("");
@@ -136,7 +136,7 @@
           '<div><strong>' + esc(c.name) + '</strong><span>' + esc(c.issuer) + '</span></div></li>';
       }).join("") + '</ul>' +
     '</div>' +
-    '<div class="reveal">' +
+    (pub ? '<div class="reveal">' +
       '<h3 class="sub-head">Publication</h3>' +
       '<article class="card pub-card">' +
         '<p class="badge mono">' + esc(pub.venue) + '</p>' +
@@ -145,7 +145,7 @@
         tags(pub.tags) +
         (pub.url ? extLink(pub.url, "Read the paper", "text-link", "file") : "") +
       '</article>' +
-    '</div>';
+    '</div>' : '');
 
   // ---- Achievements & education ----
   $("education-body").innerHTML =
