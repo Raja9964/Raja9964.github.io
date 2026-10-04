@@ -122,7 +122,7 @@ window.SITE_DATA = {
       ],
       tags: ["Python", "DuckDB", "dbt", "SQL", "Streamlit", "GitHub Actions"],
       url: "https://github.com/Raja9964/LendLake",
-      demo: "https://raja9964.github.io/LendLake/",
+      demo: "",
       image: { src: "assets/img/projects/lendlake.webp", width: 1200, height: 900, alt: "LendLake Streamlit dashboard with loan KPIs, monthly disbursement and DPD distribution charts" }
     },
     {
@@ -133,7 +133,7 @@ window.SITE_DATA = {
         "BFS cycle detection that shows the exact loop, recursive status propagation and an interactive React Flow dependency graph.",
       tags: ["Django REST", "React", "TypeScript", "React Flow"],
       url: "https://github.com/Raja9964/TaskWeave",
-      demo: "https://raja9964.github.io/TaskWeave/",
+      demo: "",
       image: { src: "assets/img/projects/taskweave.webp", width: 1200, height: 750, alt: "TaskWeave dependency graph view with task nodes and status colours" }
     },
     {
@@ -144,7 +144,7 @@ window.SITE_DATA = {
         "Rubric-driven scoring of spoken self-introductions on content, speech rate, grammar, vocabulary, clarity and engagement, with explainable metrics.",
       tags: ["Python", "Flask"],
       url: "https://github.com/Raja9964/SpeakScore",
-      demo: "https://raja9964.github.io/SpeakScore/",
+      demo: "",
       image: { src: "assets/img/projects/speakscore.webp", width: 1200, height: 750, alt: "SpeakScore result page with an overall score and rubric breakdown" }
     },
     {
@@ -155,7 +155,7 @@ window.SITE_DATA = {
         "Trip search and overbooking-safe transactional booking using SELECT … FOR UPDATE row locks.",
       tags: ["React", "TypeScript", "Express", "MySQL"],
       url: "https://github.com/Raja9964/Voyagr",
-      demo: "https://raja9964.github.io/Voyagr/",
+      demo: "",
       image: { src: "assets/img/projects/voyagr.webp", width: 1200, height: 750, alt: "Voyagr home page with trip search and popular routes from Bengaluru" }
     },
     {
@@ -166,7 +166,7 @@ window.SITE_DATA = {
         "Trackable donation codes, a privacy-safe public tracking timeline and a live admin dashboard over Server-Sent Events.",
       tags: ["Node.js", "Express", "MongoDB", "SSE"],
       url: "https://github.com/Raja9964/Helping-Hands",
-      demo: "https://raja9964.github.io/Helping-Hands/",
+      demo: "",
       image: { src: "assets/img/projects/helping-hands.webp", width: 1200, height: 750, alt: "Helping Hands landing page" }
     },
     {
@@ -177,7 +177,7 @@ window.SITE_DATA = {
         "Playwright + TypeScript with the Page Object Model, typed fixtures, UI and API suites with zod schema checks, and CI reports.",
       tags: ["Playwright", "TypeScript", "zod", "CI"],
       url: "https://github.com/Raja9964/Pagewright",
-      demo: "https://raja9964.github.io/Pagewright/",
+      demo: "",
       demoLabel: "Live test report",
       image: { src: "assets/img/projects/pagewright.webp", width: 1200, height: 750, alt: "Pagewright Playwright HTML test report with passing suites" }
     }
