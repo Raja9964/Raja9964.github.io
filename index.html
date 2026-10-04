@@ -4,35 +4,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Raja Mohamad | Data Engineering Portfolio</title>
-  <meta name="description" content="Raja Mohamad is a Data Engineering Intern at Cuedo Analytics in Bengaluru, India, building ETL pipelines and cloud data platforms with Python, SQL, AWS and Google Cloud.">
+  <meta name="description" content="Raja Mohamad, Data Engineering Intern at Cuedo Analytics in Bengaluru. AWS Certified Data Engineer – Associate, Google Cloud Professional Data Engineer and co-author of two IEEE papers. Python, SQL, AWS and dbt pipelines.">
   <meta name="author" content="Raja Mohamad">
   <link rel="canonical" href="https://raja9964.github.io/">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#f7f9fc" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#0a1226">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Raja Mohamad">
   <meta property="og:title" content="Raja Mohamad | Data Engineering Portfolio">
-  <meta property="og:description" content="Data Engineering Intern in Bengaluru building ETL pipelines and cloud data platforms with Python, SQL, AWS and Google Cloud.">
+  <meta property="og:description" content="Data Engineering Intern at Cuedo Analytics. AWS + Google Cloud certified data engineering, 2× IEEE published. Raw data in. Reliable insights out.">
   <meta property="og:url" content="https://raja9964.github.io/">
   <meta property="og:image" content="https://raja9964.github.io/assets/img/og-image.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Raja Mohamad, Data Engineering Intern">
+  <meta property="og:image:alt" content="Raja Mohamad, Data Engineering Intern at Cuedo Analytics">
   <meta property="og:locale" content="en_IN">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Raja Mohamad | Data Engineering Portfolio">
-  <meta name="twitter:description" content="Data Engineering Intern in Bengaluru building ETL pipelines and cloud data platforms with Python, SQL, AWS and Google Cloud.">
+  <meta name="twitter:description" content="Data Engineering Intern at Cuedo Analytics. AWS + Google Cloud certified data engineering, 2× IEEE published. Raw data in. Reliable insights out.">
   <meta name="twitter:image" content="https://raja9964.github.io/assets/img/og-image.png">
-  <meta name="twitter:image:alt" content="Raja Mohamad, Data Engineering Intern">
+  <meta name="twitter:image:alt" content="Raja Mohamad, Data Engineering Intern at Cuedo Analytics">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 
   <script>
-    // set the theme before first paint to avoid a flash
+    // pick the theme before first paint so there's no flash
     (function () {
       var t = null;
       try { t = localStorage.getItem("theme"); } catch (e) {}
@@ -46,8 +45,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap">
-  <link rel="preload" as="image" href="assets/img/avatar-320.webp" type="image/webp">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap">
+  <link rel="preload" as="image" href="assets/img/avatar-460.webp" type="image/webp">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script src="assets/js/data.js" defer></script>
   <script src="assets/js/main.js" defer></script>
@@ -55,20 +54,21 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header" id="site-header">
+  <header class="site-header on-hero" id="site-header">
     <nav class="nav container" aria-label="Primary">
-      <a class="brand" href="#top" aria-label="Back to top">
+      <a class="brand" href="#top" aria-label="Raja Mohamad, back to top">
         <span class="brand-mark" aria-hidden="true">RM</span>
-        <span class="brand-name" data-bind="name"></span>
+        <span class="brand-name">Raja Mohamad</span>
       </a>
       <ul class="nav-links" id="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#credentials">Credentials</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li class="nav-cta-item"><a class="nav-cta" href="#contact">Contact</a></li>
       </ul>
       <div class="nav-actions">
         <button class="icon-btn theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme">
@@ -86,80 +86,169 @@
   <main id="main">
     <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="hero-bg" aria-hidden="true"></div>
+
+      <svg class="hero-flow" id="hero-flow" viewBox="0 0 1440 300" preserveAspectRatio="xMidYMax meet" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="flow-stroke" gradientUnits="userSpaceOnUse" x1="110" y1="0" x2="1250" y2="0">
+            <stop offset="0" stop-color="#7dd3fc" stop-opacity=".25"/>
+            <stop offset=".32" stop-color="#e0995e" stop-opacity=".55"/>
+            <stop offset=".58" stop-color="#cbd5e1" stop-opacity=".55"/>
+            <stop offset=".86" stop-color="#f5c451" stop-opacity=".75"/>
+            <stop offset="1" stop-color="#f5c451" stop-opacity=".4"/>
+          </linearGradient>
+          <linearGradient id="bar-fill" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#f5c451" stop-opacity=".85"/>
+            <stop offset="1" stop-color="#f5c451" stop-opacity=".12"/>
+          </linearGradient>
+          <path id="route-1" d="M120 120 C 270 120 330 210 470 210 C 600 210 640 186 770 186 C 900 186 940 160 1070 160 C 1150 160 1180 150 1240 150"/>
+          <path id="route-2" d="M120 190 C 270 190 330 210 470 210 C 600 210 640 186 770 186 C 900 186 940 160 1070 160 C 1150 160 1180 150 1240 150"/>
+          <path id="route-3" d="M120 260 C 270 260 330 210 470 210 C 600 210 640 186 770 186 C 900 186 940 160 1070 160 C 1150 160 1180 150 1240 150"/>
+        </defs>
+
+        <g class="flow-lines" fill="none" stroke="url(#flow-stroke)" stroke-width="1.6">
+          <use href="#route-1"/>
+          <use href="#route-2"/>
+          <use href="#route-3"/>
+        </g>
+        <g class="flow-lines-dash" fill="none" stroke="#93c5fd" stroke-opacity=".35" stroke-width="1" stroke-dasharray="2 10">
+          <use href="#route-2"/>
+        </g>
+
+        <g class="flow-sources" fill="#0e1b36" stroke="#7dd3fc" stroke-opacity=".7" stroke-width="1.4">
+          <text class="flow-label" x="73" y="88" fill="#7dd3fc" stroke="none">SOURCES</text>
+          <g transform="translate(73 104)"><path d="M0 6v22c0 3.3 9.8 6 22 6s22-2.7 22-6V6"/><ellipse cx="22" cy="6" rx="22" ry="6"/><path d="M0 17c0 3.3 9.8 6 22 6s22-2.7 22-6" fill="none"/></g>
+          <g transform="translate(73 174)"><path d="M0 6v22c0 3.3 9.8 6 22 6s22-2.7 22-6V6"/><ellipse cx="22" cy="6" rx="22" ry="6"/><path d="M0 17c0 3.3 9.8 6 22 6s22-2.7 22-6" fill="none"/></g>
+          <g transform="translate(73 244)"><path d="M0 6v22c0 3.3 9.8 6 22 6s22-2.7 22-6V6"/><ellipse cx="22" cy="6" rx="22" ry="6"/><path d="M0 17c0 3.3 9.8 6 22 6s22-2.7 22-6" fill="none"/></g>
+        </g>
+
+        <g class="flow-stages">
+          <g class="stage stage-bronze" transform="translate(470 210)">
+            <rect x="-52" y="-17" width="104" height="34" rx="17"/>
+            <circle cx="-34" cy="0" r="4"/>
+            <text x="6" y="4">BRONZE</text>
+          </g>
+          <g class="stage stage-silver" transform="translate(770 186)">
+            <rect x="-52" y="-17" width="104" height="34" rx="17"/>
+            <circle cx="-34" cy="0" r="4"/>
+            <text x="6" y="4">SILVER</text>
+          </g>
+          <g class="stage stage-gold" transform="translate(1070 160)">
+            <rect x="-52" y="-17" width="104" height="34" rx="17"/>
+            <circle cx="-34" cy="0" r="4"/>
+            <text x="6" y="4">GOLD</text>
+          </g>
+        </g>
+
+        <g class="flow-chart">
+          <text class="flow-label" x="1252" y="88" fill="#f5c451" stroke="none">INSIGHTS</text>
+          <path d="M1250 270H1396" stroke="#94a3b8" stroke-opacity=".45" stroke-width="1.2"/>
+          <g fill="url(#bar-fill)">
+            <rect class="bar" x="1258" y="236" width="16" height="34" rx="3"/>
+            <rect class="bar" x="1284" y="218" width="16" height="52" rx="3"/>
+            <rect class="bar" x="1310" y="200" width="16" height="70" rx="3"/>
+            <rect class="bar" x="1336" y="174" width="16" height="96" rx="3"/>
+            <rect class="bar" x="1362" y="146" width="16" height="124" rx="3"/>
+          </g>
+          <path class="trend" d="M1266 220 L1292 204 L1318 184 L1344 158 L1370 126" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M1360 124 L1372 124 L1372 136" fill="none" stroke="#fde68a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+
+        <g class="flow-dots">
+          <circle r="3.6"><animateMotion dur="7s" repeatCount="indefinite" begin="0s"><mpath href="#route-1"/></animateMotion><animate attributeName="fill" dur="7s" repeatCount="indefinite" begin="0s" values="#7dd3fc;#7dd3fc;#e0995e;#e0995e;#e2e8f0;#e2e8f0;#f5c451;#f5c451" keyTimes="0;.3;.34;.56;.6;.83;.87;1"/></circle>
+          <circle r="3.6"><animateMotion dur="7s" repeatCount="indefinite" begin="-3.5s"><mpath href="#route-1"/></animateMotion><animate attributeName="fill" dur="7s" repeatCount="indefinite" begin="-3.5s" values="#7dd3fc;#7dd3fc;#e0995e;#e0995e;#e2e8f0;#e2e8f0;#f5c451;#f5c451" keyTimes="0;.3;.34;.56;.6;.83;.87;1"/></circle>
+          <circle r="3.6"><animateMotion dur="8s" repeatCount="indefinite" begin="-1.2s"><mpath href="#route-2"/></animateMotion><animate attributeName="fill" dur="8s" repeatCount="indefinite" begin="-1.2s" values="#7dd3fc;#7dd3fc;#e0995e;#e0995e;#e2e8f0;#e2e8f0;#f5c451;#f5c451" keyTimes="0;.3;.34;.56;.6;.83;.87;1"/></circle>
+          <circle r="3.6"><animateMotion dur="8s" repeatCount="indefinite" begin="-5.2s"><mpath href="#route-2"/></animateMotion><animate attributeName="fill" dur="8s" repeatCount="indefinite" begin="-5.2s" values="#7dd3fc;#7dd3fc;#e0995e;#e0995e;#e2e8f0;#e2e8f0;#f5c451;#f5c451" keyTimes="0;.3;.34;.56;.6;.83;.87;1"/></circle>
+          <circle r="3.6"><animateMotion dur="7.5s" repeatCount="indefinite" begin="-2.4s"><mpath href="#route-3"/></animateMotion><animate attributeName="fill" dur="7.5s" repeatCount="indefinite" begin="-2.4s" values="#7dd3fc;#7dd3fc;#e0995e;#e0995e;#e2e8f0;#e2e8f0;#f5c451;#f5c451" keyTimes="0;.3;.34;.56;.6;.83;.87;1"/></circle>
+          <circle r="3.6"><animateMotion dur="7.5s" repeatCount="indefinite" begin="-6.1s"><mpath href="#route-3"/></animateMotion><animate attributeName="fill" dur="7.5s" repeatCount="indefinite" begin="-6.1s" values="#7dd3fc;#7dd3fc;#e0995e;#e0995e;#e2e8f0;#e2e8f0;#f5c451;#f5c451" keyTimes="0;.3;.34;.56;.6;.83;.87;1"/></circle>
+        </g>
+      </svg>
+
       <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="hero-location mono"><span class="pulse" aria-hidden="true"></span><span id="hero-location"></span></p>
-          <h1 id="hero-title" data-bind="name"></h1>
-          <p class="hero-role" id="hero-role"></p>
-          <p class="hero-lede" data-bind="tagline"></p>
-          <div class="hero-actions" id="hero-actions"></div>
-          <ul class="hero-stats" id="hero-stats"></ul>
-        </div>
-        <div class="hero-visual" id="hero-visual"></div>
+        <div class="hero-copy" id="hero-copy"></div>
+        <div class="hero-portrait" id="hero-portrait"></div>
+      </div>
+    </section>
+
+    <section class="proof" aria-label="Highlights">
+      <div class="container">
+        <ul class="proof-grid" id="proof-body"></ul>
       </div>
     </section>
 
     <section class="section" id="about" aria-labelledby="about-title">
       <div class="container">
         <div class="section-head reveal">
-          <p class="kicker mono">01 / About</p>
-          <h2 id="about-title">About me</h2>
+          <p class="kicker">About</p>
+          <h2 id="about-title">Pipelines people can trust</h2>
         </div>
         <div class="about-grid" id="about-body"></div>
       </div>
     </section>
 
-    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+    <section class="section section-alt" id="experience" aria-labelledby="experience-title">
       <div class="container">
         <div class="section-head reveal">
-          <p class="kicker mono">02 / Skills</p>
-          <h2 id="skills-title">Tools I work with</h2>
-        </div>
-        <div class="skills-grid" id="skills-body"></div>
-      </div>
-    </section>
-
-    <section class="section" id="experience" aria-labelledby="experience-title">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="kicker mono">03 / Experience</p>
-          <h2 id="experience-title">Where I've worked</h2>
+          <p class="kicker">Experience</p>
+          <h2 id="experience-title">Where I work</h2>
         </div>
         <ol class="timeline" id="experience-body"></ol>
       </div>
     </section>
 
-    <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+    <section class="section" id="projects" aria-labelledby="projects-title">
       <div class="container">
         <div class="section-head reveal">
-          <p class="kicker mono">04 / Projects</p>
-          <h2 id="projects-title">Selected projects</h2>
+          <p class="kicker">Projects</p>
+          <h2 id="projects-title">Featured projects</h2>
+          <p class="section-sub">All public on GitHub, each with passing CI.</p>
+          <p class="section-caption">Live demos run in your browser with sample data.</p>
         </div>
-        <div class="projects-grid" id="projects-body"></div>
+        <div id="projects-body"></div>
       </div>
     </section>
 
-    <section class="section" id="credentials" aria-labelledby="credentials-title">
+    <section class="section section-alt" id="publications" aria-labelledby="publications-title">
       <div class="container">
         <div class="section-head reveal">
-          <p class="kicker mono">05 / Credentials</p>
-          <h2 id="credentials-title">Certifications</h2>
+          <p class="kicker">Publications</p>
+          <h2 id="publications-title">Peer-reviewed IEEE papers</h2>
+          <p class="section-sub">Co-author of two papers presented at IEEE international conferences.</p>
         </div>
-        <div class="split" id="credentials-body"></div>
+        <div class="pub-grid" id="publications-body"></div>
+      </div>
+    </section>
+
+    <section class="section" id="certifications" aria-labelledby="certifications-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Certifications</p>
+          <h2 id="certifications-title">Certified on AWS and Google Cloud</h2>
+        </div>
+        <div class="cert-grid" id="certifications-body"></div>
       </div>
     </section>
 
     <section class="section section-alt" id="education" aria-labelledby="education-title">
       <div class="container">
         <div class="section-head reveal">
-          <p class="kicker mono">06 / Background</p>
-          <h2 id="education-title">Achievements &amp; education</h2>
+          <p class="kicker">Achievements &amp; education</p>
+          <h2 id="education-title">Background</h2>
         </div>
         <div class="split" id="education-body"></div>
       </div>
     </section>
 
-    <section class="section" id="contact" aria-labelledby="contact-title">
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Skills</p>
+          <h2 id="skills-title">Tools I work with</h2>
+        </div>
+        <div class="skills-grid" id="skills-body"></div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact" aria-labelledby="contact-title">
       <div class="container">
         <div class="contact-card reveal" id="contact-body"></div>
       </div>
@@ -167,16 +256,13 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>&copy; 2026 Raja Mohamad</p>
-      <a href="#top" class="footer-top">Back to top <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
-    </div>
+    <div class="container footer-inner" id="footer-body"></div>
   </footer>
 
   <noscript>
     <p class="noscript">This site needs JavaScript to show its content. You can also find Raja on
-      <a href="https://www.linkedin.com/in/raja-mohamad-711161262">LinkedIn</a> and
-      <a href="https://github.com/Raja9964">GitHub</a>.</p>
+      <a href="https://www.linkedin.com/in/raja-mohamad-711161262" rel="noopener">LinkedIn</a> and
+      <a href="https://github.com/Raja9964" rel="noopener">GitHub</a>.</p>
   </noscript>
 </body>
 </html>
