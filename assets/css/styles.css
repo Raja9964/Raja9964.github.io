@@ -757,6 +757,7 @@ svg.fill { fill: currentColor; stroke: none; }
   .projects-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
   .project-card.featured { grid-column: span 2; grid-row: span 2; padding: 36px; }
   .featured .flow { margin-block: auto; padding-block: 28px; }
+  .featured .flow::before { top: 50px; }
 }
 
 /* Credentials / education */
