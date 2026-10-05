@@ -115,7 +115,7 @@ window.SITE_DATA = {
         { name: "Gold", note: "Incremental facts for analytics" }
       ],
       points: [
-        "129 dbt data-quality tests guard every layer",
+        "100+ dbt data-quality tests guard every layer",
         "Run-date-driven backfills",
         "Streamlit dashboard on the Gold layer",
         "GitHub Actions CI on every change"
