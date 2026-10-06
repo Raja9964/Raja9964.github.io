@@ -1,6 +1,6 @@
 # raja9964.github.io
 
-Personal portfolio of Raja Mohamad, Data Engineering Intern in Bengaluru, India.
+Personal portfolio of Raja Mohamad, Data Engineer in Bengaluru, India.
 Live at https://raja9964.github.io
 
 Plain HTML, CSS and JavaScript. No build step and no dependencies.

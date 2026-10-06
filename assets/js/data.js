@@ -1,7 +1,7 @@
 // All the content on the site lives here. Edit, save, refresh.
 window.SITE_DATA = {
   name: "Raja Mohamad",
-  role: "Data Engineering Intern",
+  role: "Data Engineer",
   company: "Cuedo Analytics",
   location: "Bengaluru, India",
   tagline: "Raw data in. Reliable insights out.",
@@ -36,14 +36,14 @@ window.SITE_DATA = {
   ],
 
   about: [
-    "I'm a Data Engineering Intern at Cuedo Analytics in Bengaluru. I build production data pipelines in Python and SQL that ingest and transform client datasets into PostgreSQL and Amazon Redshift.",
+    "I'm a Data Engineer at Cuedo Analytics in Bengaluru. I joined as a Data Engineering Intern in February 2026 and moved into a full-time role. I build production data pipelines in Python and SQL that ingest and transform client datasets into PostgreSQL and Amazon Redshift.",
     "The part I care about most is data people can trust. I write SQL validation and reconciliation checks between source and target systems, add data-quality checks and tune Redshift queries for analytical workloads.",
     "I hold the AWS Certified Data Engineer – Associate and Google Cloud Professional Data Engineer certifications, I've co-authored two IEEE conference papers, and I studied Computer Science and Engineering at Dayananda Sagar University (CGPA 9.16 / 10)."
   ],
 
   facts: [
     { label: "Based in", value: "Bengaluru, India", icon: "pin" },
-    { label: "Currently", value: "Data Engineering Intern, Cuedo Analytics", icon: "briefcase" },
+    { label: "Currently", value: "Data Engineer, Cuedo Analytics", icon: "briefcase" },
     { label: "Focus", value: "ETL / ELT pipelines, data warehousing, cloud data migration", icon: "pipeline" },
     { label: "Languages", value: "English, Hindi, Kannada", icon: "globe" }
   ],
@@ -79,13 +79,14 @@ window.SITE_DATA = {
 
   experience: [
     {
-      role: "Data Engineering Intern",
+      role: "Data Engineer",
       company: "Cuedo Analytics",
       location: "Bengaluru, India",
-      mode: "On-site internship",
+      mode: "Full-time · On-site",
       start: "Feb 2026",
       end: "Present",
       points: [
+        "Joined as a Data Engineering Intern in February 2026 and was converted to a full-time Data Engineer.",
         "Built production data pipelines in Python and SQL to ingest and transform client datasets into PostgreSQL and Amazon Redshift.",
         "Developed SQL validation and reconciliation checks across source and target systems to verify row counts, totals and data consistency.",
         "Implemented data-quality checks and optimized Redshift queries for analytical workloads.",
